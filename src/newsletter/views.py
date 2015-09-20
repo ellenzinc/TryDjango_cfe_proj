@@ -4,10 +4,11 @@ from django.shortcuts import render
 
 
 from .forms import ContactForm, SignUpForm
+from .models import SignUp
 
 # Create your views here.
 def home(request):
-	title = 'Welcome'
+	title = 'Sign Up Now'
 	#if request.user.is_authenticated():
 	#	title = "My Title %s" %(request.user)
 	#add a form
@@ -36,6 +37,19 @@ def home(request):
 		#print instance.timestamp
 		context = {
 			"title": "Thank you"
+		}
+
+	if request.user.is_authenticated() and request.user.is_staff:
+		# i = 1
+		# for instance in SignUp.objects.all():
+		# 	print(i)
+		# 	print(instance.full_name)
+		# 	i += 1
+		queryset = SignUp.objects.all().order_by('-timestamp')
+		#.filter(full_name__icontains="justin")
+		# print(SignUp.objects.all().order_by('-timestamp').filter(full_name__icontains="justin").count())
+		context = {
+		 	"queryset": queryset
 		}
 
 	return render(request, "home.html", context)

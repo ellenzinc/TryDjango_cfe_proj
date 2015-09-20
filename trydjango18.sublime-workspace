@@ -3,10 +3,74 @@
 	{
 		"selected_items":
 		[
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "src/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 973,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/static_in_pro/our_static/css/navbar-static-top.css",
+			"settings":
+			{
+				"buffer_size": 483,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/home.html",
+			"settings":
+			{
+				"buffer_size": 2464,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/navbar.html",
+			"settings":
+			{
+				"buffer_size": 2732,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/head_css.html",
+			"settings":
+			{
+				"buffer_size": 1252,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/newsletter/views.py",
+			"settings":
+			{
+				"buffer_size": 2227,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/about.html",
+			"settings":
+			{
+				"buffer_size": 203,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -32,10 +96,29 @@
 	},
 	"file_history":
 	[
+		"/Users/hainingwang/Dropbox/websites/django_projects/trydjango18/static_in_env/static_root/css/navbar-static-top.css",
+		"/Users/hainingwang/Dropbox/websites/django_projects/trydjango18/src/templates/head_css.html",
+		"/Users/hainingwang/Dropbox/websites/django_projects/trydjango18/src/templates/home.html",
+		"/Users/hainingwang/Dropbox/websites/django_projects/trydjango18/src/templates/base.html",
+		"/Users/hainingwang/Dropbox/websites/django_projects/trydjango18/src/static_in_pro/our_static/css/navbar-static-top.css",
+		"/Users/hainingwang/Dropbox/websites/django_projects/trydjango18/src/templates/navbar.html",
+		"/Users/hainingwang/Dropbox/websites/django_projects/trydjango18/src/templates/registration/registration_form.html",
+		"/Users/hainingwang/Dropbox/websites/django_projects/trydjango18/src/trydjango18/urls.py",
+		"/Users/hainingwang/Dropbox/websites/django_projects/trydjango18/src/trydjango18/settings.py",
+		"/Users/hainingwang/Dropbox/websites/django_projects/trydjango18/src/trydjango18/views.py",
+		"/Users/hainingwang/Dropbox/websites/django_projects/trydjango18/src/templates/forms.html",
+		"/Users/hainingwang/Dropbox/websites/django_projects/trydjango18/src/newsletter/views.py",
+		"/Users/hainingwang/Dropbox/websites/django_projects/trydjango18/src/templates/javascript.html",
+		"/Users/hainingwang/Dropbox/websites/django_projects/trydjango18/src/newsletter/forms.py",
+		"/Users/hainingwang/Dropbox/websites/django_projects/trydjango18/src/static_in_pro/our_static/css/custom.css",
+		"/Users/hainingwang/Dropbox/websites/django_projects/trydjango18/src/templates/example_fluid.html",
+		"/Users/hainingwang/Dropbox/websites/django_projects/trydjango18/src/newsletter/models.py",
+		"/Users/hainingwang/Dropbox/websites/django_projects/trydjango18/src/newsletter/admin.py",
+		"/Users/hainingwang/Dropbox/websites/django_projects/trydjango18/src/newsletter/templates/home.html"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -49,6 +132,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"about.html",
+			"'\">",
+			"navbar-default",
+			"navbar",
+			"default",
+			"    <",
+			"does not ",
+			";\n",
+			"  \n",
+			">\n",
+			"jumbotron_content"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -57,7 +151,7 @@
 		"replace_history":
 		[
 		],
-		"reverse": false,
+		"reverse": true,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -66,8 +160,198 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/templates/base.html",
+					"settings":
+					{
+						"buffer_size": 973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								575,
+								575
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/static_in_pro/our_static/css/navbar-static-top.css",
+					"settings":
+					{
+						"buffer_size": 483,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12,
+								12
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/templates/home.html",
+					"settings":
+					{
+						"buffer_size": 2464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1425,
+								1425
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 829.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/templates/navbar.html",
+					"settings":
+					{
+						"buffer_size": 2732,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/templates/head_css.html",
+					"settings":
+					{
+						"buffer_size": 1252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/newsletter/views.py",
+					"settings":
+					{
+						"buffer_size": 2227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1101,
+								1101
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 413.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/templates/about.html",
+					"settings":
+					{
+						"buffer_size": 203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -77,7 +361,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -127,6 +411,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 272.0,
 	"status_bar_visible": true
 }
